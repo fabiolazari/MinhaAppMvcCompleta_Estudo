@@ -23,11 +23,20 @@ namespace DevIO.App
 
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.Configure<CookiePolicyOptions>(options =>
+			{
+				options.CheckConsentNeeded = context => true;
+				options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
+			});
+
 			services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
 			services.AddDbContext<MeuDbContext>(options =>
-				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+			{
+				options.EnableSensitiveDataLogging();
+				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+			});
 
 			services.AddDatabaseDeveloperPageExceptionFilter();
 

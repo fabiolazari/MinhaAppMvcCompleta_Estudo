@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace DevIO.Data.Repository
 {
@@ -38,13 +39,15 @@ namespace DevIO.Data.Repository
 
 		public virtual async Task Adicionar(TEntity entity)
 		{
-			DbSet.Add(entity);
+			Db.Entry(entity).State = EntityState.Detached;
+			EntityEntry<TEntity> _entityEntry = DbSet.Add(entity);
 			await SaveChanges();
 		}
 
 		public virtual async Task Atualizar(TEntity entity)
 		{
-			DbSet.Update(entity);
+			Db.Entry(entity).State = EntityState.Detached;
+			EntityEntry<TEntity> _entityEntry = DbSet.Update(entity);
 			await SaveChanges();
 		}
 
