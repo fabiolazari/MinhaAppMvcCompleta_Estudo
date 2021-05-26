@@ -1,5 +1,4 @@
-﻿@System.Globalization.CultureInfo.CurrentUICulture
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -46,8 +45,15 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - DevIO.App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container rodape">
+            <div class="text-left">
+                &copy; 2021 - DevIO.App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            
+            <div class="text-right culture">
+                @System.Globalization.CultureInfo.CurrentUICulture
+            </div>
+            
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

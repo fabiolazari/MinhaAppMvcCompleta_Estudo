@@ -76,3 +76,11 @@ file,
 textarea {
     max-width: 400px;
 }
+
+.culture {
+    margin-left: 860px;
+}
+
+.rodape {
+    display: flex;
+}
