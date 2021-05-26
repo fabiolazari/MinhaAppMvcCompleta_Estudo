@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "automapper.extensions.microsoft.dependencyinjection": {
               "target": "Package",
               "version": "[8.1.1, )"
