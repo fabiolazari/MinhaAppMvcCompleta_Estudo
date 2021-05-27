@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LHVvnG0+pYBKQDROCeHSmdgRtvEG2ReyKJyfO2fnVMFdQJo1u1sDnGzH6YOuvoXebHYLXcgsrVL/iARqqrRZ1g==",
+  "dgSpecHash": "G1ralEKCH1HT/EHvDEM6c5NnoihShUO+2QEIpo4rQE5etZeAbyOtN00GMZ5tjcYqvnZKglK5A72vlHlOnHw1jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lazari\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazari\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Lazari\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Lazari\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "C:\\Users\\Lazari\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lazari\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",
     "C:\\Users\\Lazari\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.6\\microsoft.aspnetcore.cryptography.keyderivation.5.0.6.nupkg.sha512",
