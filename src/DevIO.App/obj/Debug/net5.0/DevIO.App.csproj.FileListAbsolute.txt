@@ -203,3 +203,5 @@ C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\appsettings.Producao.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\appsettings.Staging.Development.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\appsettings.Staging.json
+C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net5.0\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
