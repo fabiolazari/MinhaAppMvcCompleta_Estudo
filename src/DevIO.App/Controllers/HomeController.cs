@@ -17,9 +17,6 @@ namespace DevIO.App.Controllers
 
 		public IActionResult Index()
 		{
-            var iden = new IdentityUser("lazari");
-            var teste = iden.Id;
-
 			return View();
 		}
 
