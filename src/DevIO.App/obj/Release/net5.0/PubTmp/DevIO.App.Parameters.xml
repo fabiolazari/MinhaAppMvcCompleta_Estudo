@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="curso.mvc" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Lazari\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO\.App\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="DevIO.App.Data.ApplicationDbContext" description="" value="Server=.\SQLEXPRESS;Database=MinhaAppMvcCompleta;User ID=sa;Password=123456;MultipleActiveResultSets=true" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Lazari\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO\.App\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\DevIO\.App\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+  <parameter name="DevIO.Data.Context.MeuDbContext" description="" value="Server=.\SQLEXPRESS;Database=MinhaAppMvcCompleta;User ID=sa;Password=123456;MultipleActiveResultSets=true" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Lazari\\source\\repos\\MinhaAppMvcCompleta\\src\\DevIO\.App\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\DevIO\.Data\.Context\.MeuDbContext\.sql$" />
+  </parameter>
+</parameters>
