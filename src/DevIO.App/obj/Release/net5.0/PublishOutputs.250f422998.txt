@@ -62,8 +62,7 @@ C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\web.config
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.json
-C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Producao.Development.json
-C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Producao.json
+C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Production.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Staging.Development.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\appsettings.Staging.json
 C:\Users\Lazari\source\repos\MinhaAppMvcCompleta\src\DevIO.App\obj\Release\net5.0\PubTmp\Out\libman.json
